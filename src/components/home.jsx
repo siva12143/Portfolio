@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react'
 export default function Home() {
 
 
-  const role = ["frontend developer", "Ui Developer", "FreeLancer"];
+  const role = ["frontend developer", "UI Developer", "Zoho Developer"];
   const [currentRoleIndex, setCurrentRoleIndex] = useState(0);
   const [currentLetters, setCurrentLetters] = useState('');
 
