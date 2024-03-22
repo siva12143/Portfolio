@@ -1034,3 +1034,6 @@ a{
   padding: 0 !important;
   width: 100% !important;
 }
+.blog1img + div{
+  margin-bottom: 15px;
+}

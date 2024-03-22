@@ -1,14 +1,16 @@
 import React from 'react'
-import project1 from "../images/project1.png"
-import project2 from "../images/project2.png"
-import project3 from "../images/project3.png"
-import project4 from "../images/project4.png"
-import project5 from "../images/project5.png"
-import project6 from "../images/project6.png"
-import project7 from "../images/project7.png"
-import project8 from "../images/project8.png"
+import Home from './home'
+import About from './About'
+import Service from './service'
+// import Project from './components/project'
 import { Link } from 'react-router-dom'
-export default function Project() {
+import project1 from "../images/project1.png";
+import project2 from "../images/project2.png";
+import project3 from "../images/project3.png";
+import Contact from './Contact'
+import '../responsive.css'
+
+export default function FullPage() {
 
     const project = [
         { 
@@ -29,55 +31,32 @@ export default function Project() {
             desc: "Developed a dynamic wholesale apparel website for Shanaz Trading.",
             link: "https://shanaztrading.com/" 
         },
-        { 
-            image: project4,
-            title: "GKR Steels",
-            desc: "Robust online presence for leading steel manufacturing company.",
-            link: "https://gkrsteels.com/" 
-        },
-        { 
-            image: project5,
-            title: "My Mart ",
-            desc: "Innovative online marketplace connecting buyers and sellers.",
-            link: "https://mymartking.com/" 
-        },
-        { 
-            image: project6,
-            title: "Afto",
-            desc: "Engaging platform for fashion-forward apparel and accessories.",
-            link: "https://afto.in/" 
-        },
-        { 
-            image: project7,
-            title: "Money Protect",
-            desc: "Comprehensive financial education platform for informed decision-making.",
-            link: "https://moneyprotects.com/" 
-        },
-        { 
-            image: project8,
-            title: "Engle Volkers",
-            desc: "Premier destination for luxury real estate listings and services.",
-            link: "https://www.engelvoelkers.com/de/en" 
-        },
     ]
 
     return (
         <div>
+            <Home />
+            <About />
+            <Service />
+            {/* Project Start*/}
             <div className="blogs">
                 <div className="blog_container">
-                    <h1 className="cont_title project_title">Projects</h1>
+                    <h1 className="cont_title blog_title">Projects</h1>
                     <div className="project_btn">
                         <div className="keira_button ">
                             <div className=''>
-                                <Link className="keira_about_button " to='/'><i className="fa fa-angle-left"></i> Home </Link>
+                                <Link className="keira_about_button" to='/projects'>See More <i className="fa fa-angle-right"></i></Link>
                             </div>
                         </div>
                     </div>
                     <div className="blog">
 
                         {project.map(ele => (
-                            <div className="blog1">
+                            <div key={ele.id} className="blog1">
                                 <div className="blog1_cont">
+
+
+
                                     <div className="blog1img">
                                         <img src={ele.image} alt="" />
                                         <div className="blog_cont_preview">
@@ -94,6 +73,8 @@ export default function Project() {
                     </div>
                 </div>
             </div>
+            {/* Project End*/}
+            <Contact />
         </div>
     )
 }
