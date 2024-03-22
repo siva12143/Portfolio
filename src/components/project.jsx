@@ -86,7 +86,6 @@ export default function Project() {
                                     </div>
                                     <div>
                                         <h3>{ele.title}</h3>
-                                        {/* <p>{ele.desc}</p> */}
                                     </div>
                                 </div>
                             </div>
