@@ -13,9 +13,24 @@ import './responsive.css'
 export default function FullPage() {
 
     const project = [
-        { id: 1, image: project1, title: "Priyam Cookware", desc: "Ways To Motivate Yourself. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod …", link: "https://priyamcookware.in" },
-        { id: 2, image: project2, title: "Ragasya", desc: "Ways To Motivate Yourself. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod …", link: "https://ragasya.com/" },
-        { id: 3, image: project3, title: "Shanaz Trading", desc: "Ways To Motivate Yourself. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod …", link: "https://shanaztrading.com/" },
+        { 
+            image: project1, 
+            title: "Priyam Cookware", 
+            desc: "Seamless e-commerce experience for kitchenware enthusiasts.",
+             link: "https://priyamcookware.in"
+        },
+        { 
+            image: project2,
+             title: "Ragasya", 
+             desc: "Immersive showcase of exquisite artworks from renowned artists.", 
+             link: "https://ragasya.com/" 
+        },
+        { 
+            image: project3,
+            title: "Shanaz Trading",
+            desc: "Developed a dynamic wholesale apparel website for Shanaz Trading.",
+            link: "https://shanaztrading.com/" 
+        },    
     ]
 
     return (
@@ -50,7 +65,6 @@ export default function FullPage() {
                                     </div>
                                     <div>
                                         <h3>{ele.title}</h3>
-                                        <p>{ele.desc}</p>
                                     </div>
                                 </div>
                             </div>
