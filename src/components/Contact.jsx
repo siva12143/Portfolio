@@ -18,7 +18,7 @@ export default function Contact() {
                             </div>
                             <div>
                                 <h3>CALL US</h3>
-                                <span><Link to='tel:+919600970394'> +91 9600970394</Link></span><br />
+                                <span><Link to='tel:+919600970394'> +91 6379554283</Link></span><br />
                             </div>
                             <div>
                                 <h3>ADDRESS</h3>
