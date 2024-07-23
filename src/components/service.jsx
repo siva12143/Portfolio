@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function Service() {
+export default function Experience() {
     return (
         <div>
             <div className="service" id="service">
@@ -12,7 +12,7 @@ export default function Service() {
                                 <img className="service1img" src="images/service_icon2.png" alt="" />
                                 <h2>Prognamik Technologies</h2>
                                 <h3>Frontend Developer</h3>
-                                <p>Over two years at Prognamik Technologies, I've spearheaded the development of six dynamic projects utilizing ReactJS, blending innovation with seamless functionality for optimal user experiences.</p>
+                                <p>Over One years at Prognamik Technologies, I've spearheaded the development of six dynamic projects utilizing ReactJS, blending innovation with seamless functionality for optimal user experiences.</p>
                             </div>
                         </div>
                         <div className="service2">

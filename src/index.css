@@ -144,7 +144,7 @@ header div{
 }
 .keira_works > span:nth-child(3){
   color: #fff;
-  margin:5px 0 0 25px;
+  margin:5px 0 0 15px;
 }
 .keira_works:before{
   content: "";
@@ -409,6 +409,7 @@ header div{
   border: 1px solid #4a4a4a;
   position: relative;
   z-index: 1000;
+  padding: 0 10px;
   overflow: hidden;
 
 }
@@ -419,7 +420,7 @@ header div{
 }
 
 
-.service1 div::before{
+.service1 div::before,.service2 div::before,.service3 div::before{
   content: "";
   position: absolute;
   width: 50px;
@@ -429,55 +430,25 @@ header div{
   left: 107px;
   transition: .20s;
   z-index: -1;
+}
+.service1 div:hover::before,.service2 div:hover::before,.service3 div:hover::before{
+  position: absolute;
+  content: "";
+  width: 100%;
+  display: block;
+  height: 100%;
+  transition: .30s;
+  top: 0;
+  left: 0;
 }
 .service1 div:hover::before{
-  position: absolute;
-  content: "";
-  width: 100%;
-  display: block;
-  height: 100%;
-  transition: .20s;
   background-color: #ff3d4f;
-  top: 0;
-  left: 0;
-}
-.service2 div::before{
-  content: "";
-  position: absolute;
-  width: 50px;
-  height: 50px;
-  display: block;
-  top: 38px;
-  left: 107px;
-  transition: .20s;
-  z-index: -1;
 }
 .service2 div:hover::before{
-  width: 100%;
-  height: 100%;
-  transition: .20s;
   background-color: #ffdb66;
-  top: 0;
-  left: 0;
-}
-.service3 div::before{
-  content: "";
-  position: absolute;
-  width: 50px;
-  height: 50px;
-  display: block;
-  top: 38px;
-  left: 107px;
-  transition: .20s;
-  z-index: -1;
 }
 .service3 div:hover::before{
-  width: 100%;
-  height: 100%;
-  transition: .20s;
   background-color: #0cc7dd;
-  top: 0;
-  left: 0;
 }
 .service1 div:hover, .service2 div:hover, .service3 div:hover{
   color: #000 ;

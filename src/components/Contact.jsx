@@ -14,11 +14,11 @@ export default function Contact() {
                         <div className="contact1">
                             <div>
                                 <h3>EMAIL</h3>
-                                <span><Link to="mailto:siva121435@gmail.com">siva121435@gmail.com</Link></span>
+                                <span><Link to="mailto:121435siva@gmail.com">121435siva@gmail.com</Link></span>
                             </div>
                             <div>
                                 <h3>CALL US</h3>
-                                <span><Link to='tel:+919600970394'> +91 6379554283</Link></span><br />
+                                <span><Link to='tel:+919600970394'> +91 9600970394</Link></span><br />
                             </div>
                             <div>
                                 <h3>ADDRESS</h3>

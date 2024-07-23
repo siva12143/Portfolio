@@ -1,14 +1,13 @@
 import React from 'react'
 import Home from './components/home'
 import About from './components/About'
-import Service from './components/service'
-// import Project from './components/project'
 import { Link } from 'react-router-dom'
 import project1 from "./images/project1.png";
 import project2 from "./images/project2.png";
 import project3 from "./images/project3.png";
 import Contact from './components/Contact'
 import './responsive.css'
+import Experience from './components/service';
 
 export default function FullPage() {
 
@@ -37,7 +36,7 @@ export default function FullPage() {
         <div>
             <Home />
             <About />
-            <Service />
+            <Experience/>
             {/* Project Start*/}
             <div className="blogs">
                 <div className="blog_container">

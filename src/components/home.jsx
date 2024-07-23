@@ -34,13 +34,13 @@ export default function Home() {
                 <br/>
               </div>
                 <div className="keira_works">
-                  <span>ReactJs + Tailwind</span><br/>
-                    <span>3+ Projects</span>
+                  <span>ReactJs</span><br/>
+                    <span>1+ Projects</span>
                       <br />
                     </div>
                       <div className="keira_works">
                         <span>Wordpress</span><br/>
-                          <span>2+ Projects</span>
+                          <span>3+ Projects</span>
                             <br />
                           </div>
                           </div>
