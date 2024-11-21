@@ -27,9 +27,9 @@ export default function Experience() {
             <div className="service3">
                 <div>
                     <img src="images/service_icon3.png" alt="" />
-                    <h2>Npng</h2>
-                    <h3>Frontend Trainer</h3>
-                    <p>During Six Month of experience as a frontend trainer at NPNG, where I taught HTML, CSS, JavaScript, and contemporary frontend technologies</p>
+                    <h2>Girish Exports</h2>
+                    <h3>Software Developer</h3>
+                    <p>A custom Zoho Creator ERP system for garment manufacturing, designed to streamline inventory, production, and order management through automated workflows, real-time reporting, and seamless data integration</p>
                 </div>
             </div>
         </div>
